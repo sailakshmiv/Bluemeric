@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<a title= "title" href="GoogleAnt-Git-AntBuildercreateSingletierDesign.png"><img width="700" height="550" src="GoogleAnt-Git-AntBuildercreateSingletierDesign.png"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a title= "title" href="GoogleAnt-Git-AntBuildercreateSingletierDesign.png"><img width="700" height="550" src="GoogleAnt-Git-AntBuildercreateSingletierDesign.png"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a title= "title" href="GoogleAnt-Git-AntBuilderlinkComponent.png"><img width="700" height="550" src="GoogleAnt-Git-AntBuilderlinkComponent.png"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a title= "title" href="GoogleAnt-Git-AntBuilderlinkComponent.png"><img width="700" height="550" src="GoogleAnt-Git-AntBuilderlinkComponent.png"></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Singletier - Ant-Git-AntBuilder" duration-ms="247376" started-at="2016-07-06T09:43:55Z" finished-at="2016-07-06T09:48:02Z">
+    <groups>
+    </groups>
+    <test name="GooglecreateSingletierDesign" duration-ms="173138" started-at="2016-07-06T09:43:55Z" finished-at="2016-07-06T09:46:48Z">
+      <class name="org.bluemeric.common.Singletier">
+        <test-method status="PASS" signature="createreport(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:org.bluemeric.common.Singletier@17c6d76]" name="createreport" is-config="true" duration-ms="16" started-at="2016-07-06T15:13:55Z" finished-at="2016-07-06T15:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f74db7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ant-Git-AntBuilder]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createreport -->
+        <test-method status="PASS" signature="createSingletierDesign(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.bluemeric.common.Singletier@17c6d76]" name="createSingletierDesign" duration-ms="172516" started-at="2016-07-06T15:13:55Z" finished-at="2016-07-06T15:16:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://github.com/sailakshmiv/antapp.git]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tomcat:7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ant]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ant]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[8080]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a title= "title" href="GoogleAnt-Git-AntBuildercreateSingletierDesign.png"><img width="700" height="550" src="GoogleAnt-Git-AntBuildercreateSingletierDesign.png"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createSingletierDesign -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:org.bluemeric.common.Singletier@17c6d76]" name="screenshot" is-config="true" duration-ms="584" started-at="2016-07-06T15:16:47Z" finished-at="2016-07-06T15:16:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createSingletierDesign status=SUCCESS method=Singletier.createSingletierDesign(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.bluemeric.common.Singletier@17c6d76] output=<a title= "title" href="GoogleAnt-Git-AntBuildercreateSingletierDesign.png"><img width="700" height="550" src="GoogleAnt-Git-AntBuildercreateSingletierDesign.png"></a>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ant-Git-AntBuilder]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a title= "title" href="GoogleAnt-Git-AntBuildercreateSingletierDesign.png"><img width="700" height="550" src="GoogleAnt-Git-AntBuildercreateSingletierDesign.png"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- org.bluemeric.common.Singletier -->
+    </test> <!-- GooglecreateSingletierDesign -->
+    <test name="GooglelinkComponent" duration-ms="74228" started-at="2016-07-06T09:46:48Z" finished-at="2016-07-06T09:48:02Z">
+      <class name="org.bluemeric.common.Singletier">
+        <test-method status="PASS" signature="createreport(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:org.bluemeric.common.Singletier@10afb13]" name="createreport" is-config="true" duration-ms="1" started-at="2016-07-06T15:16:48Z" finished-at="2016-07-06T15:16:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@13c7edf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ant-Git-AntBuilder]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createreport -->
+        <test-method status="PASS" signature="linkComponent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.bluemeric.common.Singletier@10afb13]" name="linkComponent" duration-ms="74012" started-at="2016-07-06T15:16:48Z" finished-at="2016-07-06T15:18:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sikuliimg/www.png]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sikuliimg/git.png]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[createSingletierDesign]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ant-Git-AntBuilder]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a title= "title" href="GoogleAnt-Git-AntBuilderlinkComponent.png"><img width="700" height="550" src="GoogleAnt-Git-AntBuilderlinkComponent.png"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- linkComponent -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:org.bluemeric.common.Singletier@10afb13]" name="screenshot" is-config="true" duration-ms="214" started-at="2016-07-06T15:18:02Z" finished-at="2016-07-06T15:18:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=linkComponent status=SUCCESS method=Singletier.linkComponent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.bluemeric.common.Singletier@10afb13] output=<a title= "title" href="GoogleAnt-Git-AntBuilderlinkComponent.png"><img width="700" height="550" src="GoogleAnt-Git-AntBuilderlinkComponent.png"></a>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ant-Git-AntBuilder]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a title= "title" href="GoogleAnt-Git-AntBuilderlinkComponent.png"><img width="700" height="550" src="GoogleAnt-Git-AntBuilderlinkComponent.png"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- org.bluemeric.common.Singletier -->
+    </test> <!-- GooglelinkComponent -->
+  </suite> <!-- Singletier - Ant-Git-AntBuilder -->
+</testng-results>

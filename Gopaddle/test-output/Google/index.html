@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Singletier_-_Ant-Git-AntBuilder">
+              <span class="suite-name border-passed">Singletier - Ant-Git-AntBuilder</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Singletier_-_Ant-Git-AntBuilder">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Singletier_-_Ant-Git-AntBuilder">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Singletier_-_Ant-Git-AntBuilder">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Singletier_-_Ant-Git-AntBuilder">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Singletier_-_Ant-Git-AntBuilder">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Singletier_-_Ant-Git-AntBuilder">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Singletier_-_Ant-Git-AntBuilder">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Singletier_-_Ant-Git-AntBuilder" class="hide-methods passed suite-Singletier_-_Ant-Git-AntBuilder"> (hide)</a> <!-- hide-methods passed suite-Singletier_-_Ant-Git-AntBuilder -->
+                      <a href="#" panel-name="suite-Singletier_-_Ant-Git-AntBuilder" class="show-methods passed suite-Singletier_-_Ant-Git-AntBuilder"> (show)</a> <!-- show-methods passed suite-Singletier_-_Ant-Git-AntBuilder -->
+                    </span>
+                    <div class="method-list-content passed suite-Singletier_-_Ant-Git-AntBuilder">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Singletier_-_Ant-Git-AntBuilder" title="org.bluemeric.common.Singletier" hash-for-method="createSingletierDesign(ant, https://github.com/sailakshmiv/antapp.git, , tomcat:7, Ant, ant, , , , , 8080, Google)">createSingletierDesign(ant, https://github.com/sailakshmiv/antapp.git, , tomcat:7, Ant, ant, , , , , 8080, Google)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Singletier_-_Ant-Git-AntBuilder" title="org.bluemeric.common.Singletier" hash-for-method="linkComponent(sikuliimg/www.png, sikuliimg/git.png, createSingletierDesign, Ant-Git-AntBuilder, Google)">linkComponent(sikuliimg/www.png, sikuliimg/git.png, createSingletierDesign, Ant-Git-AntBuilder, Google)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Singletier_-_Ant-Git-AntBuilder -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Singletier_-_Ant-Git-AntBuilder" class="panel Singletier_-_Ant-Git-AntBuilder">
+          <div class="suite-Singletier_-_Ant-Git-AntBuilder-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.bluemeric.common.Singletier</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createSingletierDesign(ant, https://github.com/sailakshmiv/antapp.git, , tomcat:7, Ant, ant, , , , , 8080, Google)">
+                  </a> <!-- createSingletierDesign(ant, https://github.com/sailakshmiv/antapp.git, , tomcat:7, Ant, ant, , , , , 8080, Google) -->
+                  <span class="method-name">createSingletierDesign</span>
+                  <span class="parameters">(ant, https://github.com/sailakshmiv/antapp.git, , tomcat:7, Ant, ant, , , , , 8080, Google)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkComponent(sikuliimg/www.png, sikuliimg/git.png, createSingletierDesign, Ant-Git-AntBuilder, Google)">
+                  </a> <!-- linkComponent(sikuliimg/www.png, sikuliimg/git.png, createSingletierDesign, Ant-Git-AntBuilder, Google) -->
+                  <span class="method-name">linkComponent</span>
+                  <span class="parameters">(sikuliimg/www.png, sikuliimg/git.png, createSingletierDesign, Ant-Git-AntBuilder, Google)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Singletier_-_Ant-Git-AntBuilder-class-passed -->
+        </div> <!-- panel Singletier_-_Ant-Git-AntBuilder -->
+        <div panel-name="test-xml-Singletier_-_Ant-Git-AntBuilder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Singletier - Ant-Git-AntBuilder&quot;&gt;
+  &lt;test name=&quot;GooglecreateSingletierDesign&quot;&gt;
+    &lt;parameter name=&quot;param1&quot; value=&quot;https://github.com/sailakshmiv/antapp.git&quot;/&gt;
+    &lt;parameter name=&quot;param10&quot; value=&quot;8080&quot;/&gt;
+    &lt;parameter name=&quot;param&quot; value=&quot;ant&quot;/&gt;
+    &lt;parameter name=&quot;param2&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;param3&quot; value=&quot;tomcat:7&quot;/&gt;
+    &lt;parameter name=&quot;param4&quot; value=&quot;Ant&quot;/&gt;
+    &lt;parameter name=&quot;param5&quot; value=&quot;ant&quot;/&gt;
+    &lt;parameter name=&quot;param6&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;Depends&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;suiteName&quot; value=&quot;Ant-Git-AntBuilder&quot;/&gt;
+    &lt;parameter name=&quot;param7&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;param8&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;param9&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;Testcase&quot; value=&quot;createSingletierDesign&quot;/&gt;
+    &lt;parameter name=&quot;cloud&quot; value=&quot;Google&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.bluemeric.common.Singletier&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;createSingletierDesign&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- org.bluemeric.common.Singletier --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GooglecreateSingletierDesign --&gt;
+  &lt;test name=&quot;GooglelinkComponent&quot;&gt;
+    &lt;parameter name=&quot;param1&quot; value=&quot;sikuliimg/git.png&quot;/&gt;
+    &lt;parameter name=&quot;param10&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;param&quot; value=&quot;sikuliimg/www.png&quot;/&gt;
+    &lt;parameter name=&quot;param2&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;param3&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;param4&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;param5&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;param6&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;Depends&quot; value=&quot;createSingletierDesign&quot;/&gt;
+    &lt;parameter name=&quot;suiteName&quot; value=&quot;Ant-Git-AntBuilder&quot;/&gt;
+    &lt;parameter name=&quot;param7&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;param8&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;param9&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;Testcase&quot; value=&quot;linkComponent&quot;/&gt;
+    &lt;parameter name=&quot;cloud&quot; value=&quot;Google&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.bluemeric.common.Singletier&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;linkComponent&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- org.bluemeric.common.Singletier --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GooglelinkComponent --&gt;
+&lt;/suite&gt; &lt;!-- Singletier - Ant-Git-AntBuilder --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Singletier_-_Ant-Git-AntBuilder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Singletier - Ant-Git-AntBuilder</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GooglecreateSingletierDesign (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">GooglelinkComponent (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Singletier_-_Ant-Git-AntBuilder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Singletier - Ant-Git-AntBuilder</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Singletier_-_Ant-Git-AntBuilder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Singletier - Ant-Git-AntBuilder</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Singletier_-_Ant-Git-AntBuilder');
+function tableData_Singletier_-_Ant-Git-AntBuilder() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createSingletierDesign')
+data.setCell(0, 2, 'org.bluemeric.common.Singletier')
+data.setCell(0, 3, 172516);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'linkComponent')
+data.setCell(1, 2, 'org.bluemeric.common.Singletier')
+data.setCell(1, 3, 74012);
+window.suiteTableData['Singletier_-_Ant-Git-AntBuilder']= { tableData: data, tableDiv: 'times-div-Singletier_-_Ant-Git-AntBuilder'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Singletier_-_Ant-Git-AntBuilder">
+              </div> <!-- times-div-Singletier_-_Ant-Git-AntBuilder -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Singletier_-_Ant-Git-AntBuilder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Singletier - Ant-Git-AntBuilder</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createSingletierDesign(ant, https://github.com/sailakshmiv/antapp.git, , tomcat:7, Ant, ant, , , , , 8080, Google)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a title= "title" href="GoogleAnt-Git-AntBuildercreateSingletierDesign.png"><img width="700" height="550" src="GoogleAnt-Git-AntBuildercreateSingletierDesign.png"></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">linkComponent(sikuliimg/www.png, sikuliimg/git.png, createSingletierDesign, Ant-Git-AntBuilder, Google)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a title= "title" href="GoogleAnt-Git-AntBuilderlinkComponent.png"><img width="700" height="550" src="GoogleAnt-Git-AntBuilderlinkComponent.png"></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Singletier_-_Ant-Git-AntBuilder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">40 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.bluemeric.common.Singletier</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">stopAction</span>
+                <br/>
+                <span class="ignored-method-name">stopAction</span>
+                <br/>
+                <span class="ignored-method-name">Addsourcecontrol</span>
+                <br/>
+                <span class="ignored-method-name">Addsourcecontrol</span>
+                <br/>
+                <span class="ignored-method-name">cdeliveryOff</span>
+                <br/>
+                <span class="ignored-method-name">cdeliveryOff</span>
+                <br/>
+                <span class="ignored-method-name">publish</span>
+                <br/>
+                <span class="ignored-method-name">publish</span>
+                <br/>
+                <span class="ignored-method-name">clusterValidation</span>
+                <br/>
+                <span class="ignored-method-name">clusterValidation</span>
+                <br/>
+                <span class="ignored-method-name">sourceControlDeletionValidation</span>
+                <br/>
+                <span class="ignored-method-name">sourceControlDeletionValidation</span>
+                <br/>
+                <span class="ignored-method-name">clusterDeletion</span>
+                <br/>
+                <span class="ignored-method-name">clusterDeletion</span>
+                <br/>
+                <span class="ignored-method-name">Addsourcecontrolvalidation</span>
+                <br/>
+                <span class="ignored-method-name">Addsourcecontrolvalidation</span>
+                <br/>
+                <span class="ignored-method-name">createCluster</span>
+                <br/>
+                <span class="ignored-method-name">createCluster</span>
+                <br/>
+                <span class="ignored-method-name">deleteValidation</span>
+                <br/>
+                <span class="ignored-method-name">deleteValidation</span>
+                <br/>
+                <span class="ignored-method-name">createSingletierDesign</span>
+                <br/>
+                <span class="ignored-method-name">designValidation</span>
+                <br/>
+                <span class="ignored-method-name">sourceControlDeletion</span>
+                <br/>
+                <span class="ignored-method-name">linkComponent</span>
+                <br/>
+                <span class="ignored-method-name">sourceControlDeletion</span>
+                <br/>
+                <span class="ignored-method-name">designValidation</span>
+                <br/>
+                <span class="ignored-method-name">deleteApp</span>
+                <br/>
+                <span class="ignored-method-name">deleteApp</span>
+                <br/>
+                <span class="ignored-method-name">launchValidation</span>
+                <br/>
+                <span class="ignored-method-name">launchValidation</span>
+                <br/>
+                <span class="ignored-method-name">accessValidation</span>
+                <br/>
+                <span class="ignored-method-name">accessValidation</span>
+                <br/>
+                <span class="ignored-method-name">cdeliveryOn</span>
+                <br/>
+                <span class="ignored-method-name">cdeliveryOn</span>
+                <br/>
+                <span class="ignored-method-name">startAction</span>
+                <br/>
+                <span class="ignored-method-name">startAction</span>
+                <br/>
+                <span class="ignored-method-name">launchApp</span>
+                <br/>
+                <span class="ignored-method-name">launchApp</span>
+                <br/>
+                <span class="ignored-method-name">clusterDeletionvalidation</span>
+                <br/>
+                <span class="ignored-method-name">clusterDeletionvalidation</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Singletier_-_Ant-Git-AntBuilder" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.bluemeric.common.Singletier</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">createreport(org.testng.TestRunner@f74db7, Ant-Git-AntBuilder, Google)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createSingletierDesign(ant, https://github.com/sailakshmiv/antapp.git, , tomcat:7, Ant, ant, , , , , 8080, Google)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=createSingletierDesign status=SUCCESS method=Singletier.createSingletierDesign(java...)</span>
+                <span class="method-start">172532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createreport(org.testng.TestRunner@13c7edf, Ant-Git-AntBuilder, Google)</span>
+                <span class="method-start">173128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">linkComponent(sikuliimg/www.png, sikuliimg/git.png, createSingletierDesign, Ant-Git-AntBuilder, Google)</span>
+                <span class="method-start">173129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=linkComponent status=SUCCESS method=Singletier.linkComponent(java.lang.String, java...)</span>
+                <span class="method-start">247141 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
